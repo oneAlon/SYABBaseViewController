@@ -56,6 +56,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'BaseWebViewController' do |baseWebViewController|
     baseWebViewController.source_files = 'SYABBaseViewController/Classes/BaseWebViewController/*.{swift}'
+    baseWebViewController.dependency 'SYABBaseViewController/BaseViewController'
   end
   
 end
