@@ -31,11 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   
   s.dependency 'SYABNetwork'
-  s.dependency 'MJRefresh', :modular_headers => true
+  s.dependency 'MJRefresh':modular_headers => true
   s.dependency 'SYABUtilites'
   s.dependency 'SYABasicUIKit'
-  s.dependency 'RTRootNavigationController', :modular_headers => true
-  s.dependency 'WebViewJavascriptBridge', :modular_headers => true
+  s.dependency 'RTRootNavigationController':modular_headers => true
+  s.dependency 'WebViewJavascriptBridge':modular_headers => true
 
   s.subspec 'BaseNavigationController' do |baseNavigationController|
     baseNavigationController.source_files = 'SYABBaseViewController/Classes/BaseNavigationController/*.{swift}'
