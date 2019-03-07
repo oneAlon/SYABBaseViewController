@@ -9,9 +9,6 @@ import UIKit
 import HandyJSON
 import SYABNetwork
 import SYABasicUIKit
-import MJRefresh
-import RTRootNavigationController
-import WebViewJavascriptBridge
 
 open class SYABBaseViewController: UIViewController, HandyJSON {
 
