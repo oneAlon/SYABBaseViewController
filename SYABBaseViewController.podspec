@@ -45,13 +45,13 @@ TODO: Add long description of the pod here.
     baseTabBarController.source_files = 'SYABBaseViewController/Classes/BaseTabBarController/*.{swift}'
   end
   
+  s.subspec 'BaseViewController' do |baseViewController|
+    baseViewController.source_files = 'SYABBaseViewController/Classes/BaseViewController/*.{swift}'
+  end
+  
   s.subspec 'BaseTableViewController' do |baseTableViewController|
     baseTableViewController.source_files = 'SYABBaseViewController/Classes/BaseTableViewController/*.{swift}'
     baseTableViewController.dependency 'SYABBaseViewController/BaseViewController'
-  end
-  
-  s.subspec 'BaseViewController' do |baseViewController|
-    baseViewController.source_files = 'SYABBaseViewController/Classes/BaseViewController/*.{swift}'
   end
   
   s.subspec 'BaseWebViewController' do |baseWebViewController|
