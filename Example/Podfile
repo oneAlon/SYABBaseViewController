@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYABBaseViewController_Example' do
+  pod 'SYABBaseViewController', :path => '../'
+
+  target 'SYABBaseViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
