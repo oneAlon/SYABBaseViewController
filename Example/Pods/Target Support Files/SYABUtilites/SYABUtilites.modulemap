@@ -1,0 +1,6 @@
+framework module SYABUtilites {
+  umbrella header "SYABUtilites-umbrella.h"
+
+  export *
+  module * { export * }
+}

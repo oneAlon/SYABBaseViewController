@@ -153,10 +153,34 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SYABBaseViewController/SYABBaseViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABFoundation/SYABFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABNetwork/SYABNetwork.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABUtilites/SYABUtilites.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABasicUIKit/SYABasicUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SYABBaseViewController/SYABBaseViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABFoundation/SYABFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABNetwork/SYABNetwork.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABUtilites/SYABUtilites.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SYABasicUIKit/SYABasicUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,0 +1,6 @@
+framework module SYABasicUIKit {
+  umbrella header "SYABasicUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

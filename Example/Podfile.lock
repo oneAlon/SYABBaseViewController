@@ -1,16 +1,183 @@
 PODS:
-  - SYABBaseViewController (0.1.0)
+  - Alamofire (4.8.1)
+  - HandyJSON (4.2.1)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.1.15.7)
+  - ReachabilitySwift (4.3.0)
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
+  - SnapKit (4.2.0)
+  - SYABasicUIKit (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABasicUIKit/UIColor (= 0.0.1)
+    - SYABasicUIKit/UIFont (= 0.0.1)
+    - SYABasicUIKit/UIGestureRecognizer (= 0.0.1)
+    - SYABasicUIKit/UIImage (= 0.0.1)
+    - SYABasicUIKit/UIScrollView (= 0.0.1)
+    - SYABasicUIKit/UITextField (= 0.0.1)
+    - SYABasicUIKit/UITextView (= 0.0.1)
+    - SYABasicUIKit/UIView (= 0.0.1)
+  - SYABasicUIKit/UIColor (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UIFont (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UIGestureRecognizer (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UIImage (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UIScrollView (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UITextField (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UITextView (0.0.1):
+    - Kingfisher
+    - SnapKit
+  - SYABasicUIKit/UIView (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABasicUIKit/UIGestureRecognizer
+  - SYABBaseViewController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABBaseViewController/BaseNavigationController (= 0.0.1)
+    - SYABBaseViewController/BaseTabBarController (= 0.0.1)
+    - SYABBaseViewController/BaseTableViewController (= 0.0.1)
+    - SYABBaseViewController/BaseViewController (= 0.0.1)
+    - SYABBaseViewController/BaseWebViewController (= 0.0.1)
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseNavigationController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseTabBarController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseTableViewController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABBaseViewController/BaseViewController
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseViewController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseWebViewController (0.0.1):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABFoundation (0.0.1):
+    - SYABFoundation/Array (= 0.0.1)
+    - SYABFoundation/Data (= 0.0.1)
+    - SYABFoundation/Date (= 0.0.1)
+    - SYABFoundation/Dictionary (= 0.0.1)
+    - SYABFoundation/NotificationCenter (= 0.0.1)
+    - SYABFoundation/String (= 0.0.1)
+  - SYABFoundation/Array (0.0.1):
+    - SYABFoundation/String
+  - SYABFoundation/Data (0.0.1)
+  - SYABFoundation/Date (0.0.1)
+  - SYABFoundation/Dictionary (0.0.1)
+  - SYABFoundation/NotificationCenter (0.0.1)
+  - SYABFoundation/String (0.0.1)
+  - SYABNetwork (0.0.1):
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+    - SYABFoundation
+    - SYABNetwork/BaseModel (= 0.0.1)
+    - SYABNetwork/JsonSerializer (= 0.0.1)
+    - SYABNetwork/Manager (= 0.0.1)
+  - SYABNetwork/BaseModel (0.0.1):
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+    - SYABFoundation
+    - SYABNetwork/JsonSerializer
+    - SYABNetwork/Manager
+  - SYABNetwork/JsonSerializer (0.0.1):
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+    - SYABFoundation
+  - SYABNetwork/Manager (0.0.1):
+    - Alamofire
+    - HandyJSON
+    - ReachabilitySwift
+    - SYABFoundation
+  - SYABUtilites (0.0.1):
+    - SYABUtilites/Macro (= 0.0.1)
+    - SYABUtilites/UIApplication (= 0.0.1)
+    - SYABUtilites/UIDevice (= 0.0.1)
+  - SYABUtilites/Macro (0.0.1)
+  - SYABUtilites/UIApplication (0.0.1)
+  - SYABUtilites/UIDevice (0.0.1)
+  - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - SYABBaseViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - MJRefresh
+    - ReachabilitySwift
+    - RTRootNavigationController
+    - SnapKit
+    - WebViewJavascriptBridge
+  https://github.com/oneAlon/YAPodSpecs.git:
+    - SYABasicUIKit
+    - SYABFoundation
+    - SYABNetwork
+    - SYABUtilites
 
 EXTERNAL SOURCES:
   SYABBaseViewController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYABBaseViewController: bf41d9c95fb5563cc9616b6e174d0323fdb33a0e
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SYABasicUIKit: bce5f1e56a1a0a6998f747cfe00da99754f9b0bb
+  SYABBaseViewController: 5aa285a1cfd69d9692cd42f4ce422d4f68643e4c
+  SYABFoundation: 411593d436360cd3d0fae4262bb9a0301bd8dd63
+  SYABNetwork: a3de2e3fe01094eb27e7793db38e05c995559041
+  SYABUtilites: ef979fe27d550de01ad49f43d63bf275d2547ddf
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 05b8258b1dbdff5357442553a606cac523ed6190
+PODFILE CHECKSUM: 8d2d2f225ef48e34421258fe74cb66413ea5d554
 
 COCOAPODS: 1.6.1

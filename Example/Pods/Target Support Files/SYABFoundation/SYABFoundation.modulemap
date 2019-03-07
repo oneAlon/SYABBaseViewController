@@ -1,0 +1,6 @@
+framework module SYABFoundation {
+  umbrella header "SYABFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

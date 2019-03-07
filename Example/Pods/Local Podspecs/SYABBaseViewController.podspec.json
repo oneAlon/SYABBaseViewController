@@ -1,6 +1,6 @@
 {
   "name": "SYABBaseViewController",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of SYABBaseViewController.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/onealon/SYABBaseViewController",
@@ -13,10 +13,56 @@
   },
   "source": {
     "git": "https://github.com/onealon/SYABBaseViewController.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SYABBaseViewController/Classes/**/*"
+  "dependencies": {
+    "SYABNetwork": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SYABUtilites": [
+
+    ],
+    "SYABasicUIKit": [
+
+    ],
+    "RTRootNavigationController": [
+
+    ],
+    "WebViewJavascriptBridge": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "BaseNavigationController",
+      "source_files": "SYABBaseViewController/Classes/BaseNavigationController/*.{swift}"
+    },
+    {
+      "name": "BaseTabBarController",
+      "source_files": "SYABBaseViewController/Classes/BaseTabBarController/*.{swift}"
+    },
+    {
+      "name": "BaseTableViewController",
+      "source_files": "SYABBaseViewController/Classes/BaseTableViewController/*.{swift}",
+      "dependencies": {
+        "SYABBaseViewController/BaseViewController": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseViewController",
+      "source_files": "SYABBaseViewController/Classes/BaseViewController/*.{swift}"
+    },
+    {
+      "name": "BaseWebViewController",
+      "source_files": "SYABBaseViewController/Classes/BaseWebViewController/*.{swift}"
+    }
+  ]
 }
