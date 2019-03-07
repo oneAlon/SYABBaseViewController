@@ -225,7 +225,6 @@ open class SYABBaseRequestModel: NSObject, SYABBaseRequestModelProtocol {
         self.state = .fail;
         
         self.error = error
-
     }
     
     // 提取data包着的数据，与result合并成一个dict
