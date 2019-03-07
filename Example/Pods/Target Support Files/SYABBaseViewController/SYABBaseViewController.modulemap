@@ -1,0 +1,6 @@
+framework module SYABBaseViewController {
+  umbrella header "SYABBaseViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SYABBaseViewController (0.1.0)
+
+DEPENDENCIES:
+  - SYABBaseViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SYABBaseViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYABBaseViewController: bf41d9c95fb5563cc9616b6e174d0323fdb33a0e
+
+PODFILE CHECKSUM: 05b8258b1dbdff5357442553a606cac523ed6190
+
+COCOAPODS: 1.6.1

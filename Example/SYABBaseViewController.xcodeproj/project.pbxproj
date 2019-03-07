@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B03422DA782DAA5F750873A /* SYABBaseViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYABBaseViewController.podspec; path = ../SYABBaseViewController.podspec; sourceTree = "<group>"; };
+		3B03422DA782DAA5F750873A /* SYABBaseViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYABBaseViewController.podspec; path = ../SYABBaseViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SYABBaseViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYABBaseViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63F1612F22A630E4EEC8367D /* Pods-SYABBaseViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Tests/Pods-SYABBaseViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		650018F4ED0AE42352A13413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		650018F4ED0AE42352A13413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		786961B658C00908FC37B0E1 /* Pods_SYABBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B2D917F5BD8CE865CCD388 /* Pods-SYABBaseViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Example/Pods-SYABBaseViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A898845172469283553361A2 /* Pods_SYABBaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA900A4793927319E42C11A9 /* Pods-SYABBaseViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Tests/Pods-SYABBaseViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7E4761A7EE230F6F9CAFE87 /* Pods-SYABBaseViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Example/Pods-SYABBaseViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DA74CBEA648DAAB7F0C3DD0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DA74CBEA648DAAB7F0C3DD0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				BA900A4793927319E42C11A9 /* Pods-SYABBaseViewController_Tests.debug.xcconfig */,
 				63F1612F22A630E4EEC8367D /* Pods-SYABBaseViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
