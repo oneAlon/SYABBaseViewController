@@ -62,7 +62,12 @@
     },
     {
       "name": "BaseWebViewController",
-      "source_files": "SYABBaseViewController/Classes/BaseWebViewController/*.{swift}"
+      "source_files": "SYABBaseViewController/Classes/BaseWebViewController/*.{swift}",
+      "dependencies": {
+        "SYABBaseViewController/BaseViewController": [
+
+        ]
+      }
     }
   ]
 }
