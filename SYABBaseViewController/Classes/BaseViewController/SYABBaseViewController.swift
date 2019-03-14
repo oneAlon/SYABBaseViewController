@@ -131,7 +131,7 @@ open class SYABBaseViewController: UIViewController, HandyJSON {
         rightButton.sizeToFit()
         
         let rightBarItem = UIBarButtonItem.init(customView: rightButton)
-        self.navigationItem.leftBarButtonItem = rightBarItem
+        self.navigationItem.rightBarButtonItem = rightBarItem
     }
     
     
@@ -165,14 +165,14 @@ open class SYABBaseViewController: UIViewController, HandyJSON {
             return
         }
         
-        requestModel.completionHandler = { (jsonDict) in
+        requestModel.completionHandler = { (model) in
 
-            guard jsonDict.count > 0 && requestModel.resultModel.success == true else {
-                self.handleDataModelError(requestModel)
+            guard model.resultModel.success else {
+                self.handleDataModelError(model)
                 return
             }
             
-            self.handleDataModelSuccess(requestModel)
+            self.handleDataModelSuccess(model)
         }
         
     }

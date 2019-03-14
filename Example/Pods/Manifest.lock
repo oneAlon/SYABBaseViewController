@@ -44,33 +44,33 @@ PODS:
     - Kingfisher
     - SnapKit
     - SYABasicUIKit/UIGestureRecognizer
-  - SYABBaseViewController (0.0.1):
+  - SYABBaseViewController (0.0.2):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
-    - SYABBaseViewController/BaseNavigationController (= 0.0.1)
-    - SYABBaseViewController/BaseTabBarController (= 0.0.1)
-    - SYABBaseViewController/BaseTableViewController (= 0.0.1)
-    - SYABBaseViewController/BaseViewController (= 0.0.1)
-    - SYABBaseViewController/BaseWebViewController (= 0.0.1)
+    - SYABBaseViewController/BaseNavigationController (= 0.0.2)
+    - SYABBaseViewController/BaseTabBarController (= 0.0.2)
+    - SYABBaseViewController/BaseTableViewController (= 0.0.2)
+    - SYABBaseViewController/BaseViewController (= 0.0.2)
+    - SYABBaseViewController/BaseWebViewController (= 0.0.2)
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseNavigationController (0.0.1):
-    - MJRefresh
-    - RTRootNavigationController
-    - SYABasicUIKit
-    - SYABNetwork
-    - SYABUtilites
-    - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseTabBarController (0.0.1):
+  - SYABBaseViewController/BaseNavigationController (0.0.2):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseTableViewController (0.0.1):
+  - SYABBaseViewController/BaseTabBarController (0.0.2):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseTableViewController (0.0.2):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
@@ -78,14 +78,14 @@ PODS:
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseViewController (0.0.1):
+  - SYABBaseViewController/BaseViewController (0.0.2):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseWebViewController (0.0.1):
+  - SYABBaseViewController/BaseWebViewController (0.0.2):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
@@ -107,27 +107,27 @@ PODS:
   - SYABFoundation/Dictionary (0.0.1)
   - SYABFoundation/NotificationCenter (0.0.1)
   - SYABFoundation/String (0.0.1)
-  - SYABNetwork (0.0.1):
+  - SYABNetwork (0.0.5):
     - Alamofire
     - HandyJSON
     - ReachabilitySwift
     - SYABFoundation
-    - SYABNetwork/BaseModel (= 0.0.1)
-    - SYABNetwork/JsonSerializer (= 0.0.1)
-    - SYABNetwork/Manager (= 0.0.1)
-  - SYABNetwork/BaseModel (0.0.1):
+    - SYABNetwork/BaseModel (= 0.0.5)
+    - SYABNetwork/JsonSerializer (= 0.0.5)
+    - SYABNetwork/Manager (= 0.0.5)
+  - SYABNetwork/BaseModel (0.0.5):
     - Alamofire
     - HandyJSON
     - ReachabilitySwift
     - SYABFoundation
     - SYABNetwork/JsonSerializer
     - SYABNetwork/Manager
-  - SYABNetwork/JsonSerializer (0.0.1):
+  - SYABNetwork/JsonSerializer (0.0.5):
     - Alamofire
     - HandyJSON
     - ReachabilitySwift
     - SYABFoundation
-  - SYABNetwork/Manager (0.0.1):
+  - SYABNetwork/Manager (0.0.5):
     - Alamofire
     - HandyJSON
     - ReachabilitySwift
@@ -173,12 +173,12 @@ SPEC CHECKSUMS:
   RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SYABasicUIKit: bce5f1e56a1a0a6998f747cfe00da99754f9b0bb
-  SYABBaseViewController: b0071a3b9f72946fc105c8ef37d5afc82300013a
+  SYABBaseViewController: 2ad6ad7279885948c15d6c352d6e9ecfdce23d88
   SYABFoundation: 411593d436360cd3d0fae4262bb9a0301bd8dd63
-  SYABNetwork: a3de2e3fe01094eb27e7793db38e05c995559041
+  SYABNetwork: 438041fe4c7611c5f55da9692aad66763b836fcf
   SYABUtilites: ef979fe27d550de01ad49f43d63bf275d2547ddf
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 8d2d2f225ef48e34421258fe74cb66413ea5d554
+PODFILE CHECKSUM: 706dd7048c7ed6ccc382d46ff26aa619dfc6f7ef
 
 COCOAPODS: 1.7.0.beta.1

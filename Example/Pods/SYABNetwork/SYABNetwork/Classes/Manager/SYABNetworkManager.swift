@@ -29,7 +29,7 @@ public class SYABNetworkManager: NSObject {
         let headers = self.loadAfterHandle(url: url, params: params, suceessHandler: suceessHandler, failHandler: failHandler);
         
         let request =
-            Alamofire.request(URL(string: url)!, method: HTTPMethod.get, parameters: params, encoding:  URLEncoding.default, headers: headers).responseJSON { response in
+            Alamofire.request(URL(string: url)!, method: HTTPMethod.get, parameters: params, headers: headers).responseJSON { response in
                 self.completion(suceessHandler: suceessHandler, failHandler: failHandler, response: response)
         }
         
@@ -42,7 +42,7 @@ public class SYABNetworkManager: NSObject {
         let headers = self.loadAfterHandle(url: url, params: params, suceessHandler: suceessHandler, failHandler: failHandler)
         
         let request =
-            Alamofire.request(URL(string: url)!, method: HTTPMethod.post, parameters: params, encoding: URLEncoding.default, headers: headers).responseJSON { response in
+            Alamofire.request(URL(string: url)!, method: HTTPMethod.post, parameters: params, headers: headers).responseJSON { response in
                 self.completion(suceessHandler: suceessHandler, failHandler: failHandler, response: response)
         }
         
@@ -226,7 +226,7 @@ public class SYABNetworkManager: NSObject {
     // Mark: 创建头部值
     private func headerParams(parameters: [String : Any]) -> [String : String] {
         let array = riseSort(allParams: parameters)
-        let _nsign = array.syab_md5(andKey: "md5key")
+        let _nsign = array.syab_md5(andKey: "v__s_k_=xinyong234@21@#$fasd")
         let _nversion = "default"
         return ["_nsign": _nsign, "_nversion": _nversion]
     }

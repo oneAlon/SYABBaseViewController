@@ -58,7 +58,7 @@ open class SYABBaseRequestModel: NSObject, SYABBaseRequestModelProtocol {
     
     public var error: Error?
     
-    public typealias completionHandler = (_ jsonDict: [String: Any]) -> Void
+    public typealias completionHandler = (_ model: SYABBaseRequestModel) -> Void
     
     public var requestUrl: String = ""
     
@@ -213,7 +213,7 @@ open class SYABBaseRequestModel: NSObject, SYABBaseRequestModelProtocol {
         DispatchQueue.main.async(execute: {
             self.didEndParsedData(responseDict: jsonDict)
             if self.completionHandler != nil {
-                self.completionHandler!(jsonDict)
+                self.completionHandler!(self)
             }
         })
     }

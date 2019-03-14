@@ -3,6 +3,8 @@ use_frameworks!
 source 'https://github.com/oneAlon/YAPodSpecs.git'
 source 'git@github.com:CocoaPods/Specs.git'
 
+platform :ios,'9.0'
+
 target 'SYABBaseViewController_Example' do
   pod 'SYABBaseViewController', :path => '../'
 
