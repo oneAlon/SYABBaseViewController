@@ -211,7 +211,7 @@
 		D6CD333EF9E7370DB4E53AF26EA243FD /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2779BA8425553FC1E738D80726EF50 /* ISO8601DateTransform.swift */; };
 		D9C705EEEAE65F7CD6D67422544499CA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30A9F5DE8BBBE4A3E6B62D74DEB0C9 /* Constraint.swift */; };
 		D9EF6FA0DE3E66174B97371EB97A0F33 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C1EDD96C19C0693EC62C0ADDC7C9D /* UIScrollView+MJRefresh.m */; };
-		DA969C189BC70D71041B8A626D4D63D9 /* SYABBaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF83B1045F34C45698B446DA1481CA /* SYABBaseItem.swift */; };
+		DA969C189BC70D71041B8A626D4D63D9 /* SYABBaseCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF83B1045F34C45698B446DA1481CA /* SYABBaseCellItem.swift */; };
 		DE44C18E271A26A598E8498821125F65 /* Measuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABC4EDC0A348CEBB7B660E7D955AB3 /* Measuable.swift */; };
 		DF1996049BCECA762393C3B058D81447 /* SYABFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778DBEE1AC2F24201D6E9BB50642CCA /* SYABFoundation-dummy.m */; };
 		E083F28F5B56F6F7A2124F0442552F32 /* UIFont+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA29F21DFD9F34D89AD8826E1F503 /* UIFont+SYAB.swift */; };
@@ -488,9 +488,9 @@
 		1D73FA3F0BCAA881BF66CDC267A78A79 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		1DF1106955C44760F47E3632339F1325 /* SYABBaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYABBaseViewController-dummy.m"; sourceTree = "<group>"; };
 		1F8541F482F68A81534615EDE719FA85 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21131A6FE876183EE87AA1FC40FE0E38 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21131A6FE876183EE87AA1FC40FE0E38 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BD7218EE36CAFB9CA37119AFE4A1EA /* Pods-SYABBaseViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABBaseViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		22FD69E254C670C47108C9825B98B615 /* SYABasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYABasicUIKit.framework; path = SYABasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FD69E254C670C47108C9825B98B615 /* SYABasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DEA266EA450DE008DD34735E26D597 /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = Source/Serializer.swift; sourceTree = "<group>"; };
 		24FBCBE506C9057B4884ECC8A18D68CA /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		25417C80BC915BB6FF04F19B675E716F /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
@@ -500,7 +500,7 @@
 		26EE4F34EF386B844A03DA26CEEABC32 /* HandyJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandyJSON.h; path = Source/HandyJSON.h; sourceTree = "<group>"; };
 		2A776C9459F9B7DD7EE522E5E5D2A106 /* HandyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-umbrella.h"; sourceTree = "<group>"; };
 		2AC97AB88C083F49D9116D7B649CA480 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		2B6AE06B0D5333B42043E8896B2533FB /* SYABFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYABFoundation.framework; path = SYABFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6AE06B0D5333B42043E8896B2533FB /* SYABFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0F1B129BB49F6CABBD77F16FD34577 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6983A860F7B047CADA5F3BD7E87734 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Source/DateFormatterTransform.swift; sourceTree = "<group>"; };
 		2DEC1D3660D5C627E9ABA157230B1DD7 /* Pods-SYABBaseViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYABBaseViewController_Example-dummy.m"; sourceTree = "<group>"; };
@@ -530,7 +530,7 @@
 		3EF18DD172AC18922E6FDDA77C1A9138 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
 		40068C8C2761CD1640FCD6FDEE750187 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		41FF0352211DCE440A96EF1EA9C3AE40 /* UIColor+SYAB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+SYAB.swift"; path = "SYABasicUIKit/Classes/UIColor/UIColor+SYAB.swift"; sourceTree = "<group>"; };
-		4243741AD8E37D09512AF60B49DD4229 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4243741AD8E37D09512AF60B49DD4229 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42520639D97E3C7D1505686BC059C492 /* SYABBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYABBaseViewController.swift; path = SYABBaseViewController/Classes/BaseViewController/SYABBaseViewController.swift; sourceTree = "<group>"; };
 		42AB7833310A859D503908CC878254BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		439A9FC227562B2685007D7381858AF4 /* SYABBaseViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABBaseViewController-prefix.pch"; sourceTree = "<group>"; };
@@ -567,9 +567,9 @@
 		6259A3F5935B6FFA78726C00388E6E26 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		625B514787B7C152BF8003891E6D4733 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTRootNavigationController.h"; path = "RTRootNavigationController/Classes/UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
 		627DBE45040C60B61355381BBAD95CF7 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Source/URLTransform.swift; sourceTree = "<group>"; };
-		63864869665B482D9FDFA62CEC7F172E /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63864869665B482D9FDFA62CEC7F172E /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FBEDF44ACCFDEDF2BA4FF2653C230D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		65CC00FDF454A63A2FE1026A4DE4CDEC /* SYABBaseViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYABBaseViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65CC00FDF454A63A2FE1026A4DE4CDEC /* SYABBaseViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SYABBaseViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		661DAAD5B56E8DB38C79E08A9B6B7E2E /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
 		667A6F1CCA90D2529F71813EBABF5FCD /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
 		6703A03E11F71312FE1CF7945FD9ECCF /* SYABBaseViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYABBaseViewController.modulemap; sourceTree = "<group>"; };
@@ -622,10 +622,10 @@
 		89DCBC45FA7FB8A98B368E5F4EB2C1B2 /* BuiltInBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBasicType.swift; path = Source/BuiltInBasicType.swift; sourceTree = "<group>"; };
 		8A4024C46868EE9CA30D084E1442C902 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		8ACDB60C119946EB0838A1FEC2BEF803 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
-		8BD13F1642F88B449216356795D4F3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8BD13F1642F88B449216356795D4F3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8C5D0706EF1B72AFC998D69B54A1DD81 /* SYABUtilites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-umbrella.h"; sourceTree = "<group>"; };
 		8DF5C9CE5AAE088CF1AAB58043C28851 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
-		8FE13CC2DC3A2BBD7AD9CA672EACE273 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8FE13CC2DC3A2BBD7AD9CA672EACE273 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		901BF222BF258B0F3F46ACDD59EEC8F7 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		91137A6AF742A700402C584BD8C6DE14 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		91726F127DD28C019650755AFA9DA81D /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
@@ -643,7 +643,7 @@
 		9BFF1CF993F2D1F83DE5B10A464B448F /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
 		9C7D103C2E53B1B564461DDFFAF52C3D /* PropertyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyInfo.swift; path = Source/PropertyInfo.swift; sourceTree = "<group>"; };
 		9D25794CF1442F95CB132E37DD620EDC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F27B21707E14B8D83C352A6F310E16C /* SYABUtilites-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-prefix.pch"; sourceTree = "<group>"; };
 		9F574D49576A7F03BB80792D19B6824F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		9F7755766654A67F82E76A4E0276C752 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
@@ -655,9 +655,9 @@
 		A2826AE23E5FECF4819147E64DEA70A7 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		A2EABDC8094A081988C21ED8B5889828 /* UIDevice+SYAB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+SYAB.swift"; path = "SYABUtilites/Classes/UIDevice/UIDevice+SYAB.swift"; sourceTree = "<group>"; };
 		A301115381F1917497E3A973B0533378 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
-		A34F0AC24DA55A19BA519D07B16E470D /* SYABBaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYABBaseViewController.framework; path = SYABBaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F529C9326E37519F84272D24C519EF /* Pods_SYABBaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYABBaseViewController_Example.framework; path = "Pods-SYABBaseViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A64F364EEAC6F841A236A79FF6DCAC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34F0AC24DA55A19BA519D07B16E470D /* SYABBaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABBaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F529C9326E37519F84272D24C519EF /* Pods_SYABBaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A64F364EEAC6F841A236A79FF6DCAC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51822D646E2A4699D72C46C23653BC9 /* Pods-SYABBaseViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABBaseViewController_Example-Info.plist"; sourceTree = "<group>"; };
 		A55CBC60CD891917AA6F21FC8074DD28 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57D410253DD0F7BE95D752A3C38666A /* SYABNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABNetwork-prefix.pch"; sourceTree = "<group>"; };
@@ -666,14 +666,14 @@
 		A805518EA3731D2E977E7FF2E9EAC3F6 /* SYABNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYABNetwork-dummy.m"; sourceTree = "<group>"; };
 		A85605DB4F7C1A8F0B353786FDCC2401 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Source/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		A9D29C08EC43E58B55CEC90C1749A257 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		AAE77F1B200006F563F91E0297B9199B /* SYABUtilites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYABUtilites.framework; path = SYABUtilites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE77F1B200006F563F91E0297B9199B /* SYABUtilites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABUtilites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8CA93D8EE44E946D8F7F9E50765F20 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		ACE3686BE2D374923303AA71F4C0E42B /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE3686BE2D374923303AA71F4C0E42B /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B179DB9468D1A55C6442CB58BDDFFA70 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		B189BBD23167812A52023DC834E45E5B /* SYABBaseViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABBaseViewController-umbrella.h"; sourceTree = "<group>"; };
 		B18DD619692A346DAB9A066753B4BB77 /* RTRootNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTRootNavigationController.modulemap; sourceTree = "<group>"; };
 		B2DCCAAE8BC66BDE4FCB8DC94664C9CB /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		B36023D825B0FF14600A96E024141DD8 /* SYABNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYABNetwork.framework; path = SYABNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36023D825B0FF14600A96E024141DD8 /* SYABNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B381F68449C2FE45CBEE774081EA20D0 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		B38CB15971045F597329F57BF8F7CAAC /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		B3BAF1369DE46A30393633F24EE854A4 /* Pods-SYABBaseViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYABBaseViewController_Tests.modulemap"; sourceTree = "<group>"; };
@@ -721,13 +721,13 @@
 		D6656BB136841E6BE430D8E5E245487E /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		D7836858733A32586596BF18DCD18F33 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		D7DF7F53FE0075A5C48A358F714CC9D1 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		D8BFCC9BF2F1E982D9C712A5881C559D /* RTRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTRootNavigationController.framework; path = RTRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BFCC9BF2F1E982D9C712A5881C559D /* RTRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D993F1C1F25EE9CEEE2E43F318478BA1 /* SYABasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E7E8E289B2E0CB3620753842D8635C /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		DB4B2B4FE2B88D79A27CD10C1F5C08CE /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyJSON.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B2B4FE2B88D79A27CD10C1F5C08CE /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6B93DA9171DB28BE74A5C0DA8B2FE6 /* HandyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HandyJSON-Info.plist"; sourceTree = "<group>"; };
 		DB868C80E49338D6E5107D8AAC7139C5 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		DBAF83B1045F34C45698B446DA1481CA /* SYABBaseItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYABBaseItem.swift; path = SYABBaseViewController/Classes/BaseTableViewController/SYABBaseItem.swift; sourceTree = "<group>"; };
+		DBAF83B1045F34C45698B446DA1481CA /* SYABBaseCellItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYABBaseCellItem.swift; path = SYABBaseViewController/Classes/BaseTableViewController/SYABBaseCellItem.swift; sourceTree = "<group>"; };
 		DBDAE29742731166C3AFB5CB54E19B85 /* CBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBridge.swift; path = Source/CBridge.swift; sourceTree = "<group>"; };
 		DC979C64DF205EA460724F3B16E3C59F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		DCCDD20FFE5B58F47FDDBAFE56ABFC63 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
@@ -739,7 +739,7 @@
 		E18406389C1AAD7B3A92BE902AF0DC11 /* SYABNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYABNetwork-Info.plist"; sourceTree = "<group>"; };
 		E19E966591F395BC3F55DD2D7E7694FB /* HelpingMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelpingMapper.swift; path = Source/HelpingMapper.swift; sourceTree = "<group>"; };
 		E2CBA08B0C45BC810BC3B5289DCD85A5 /* RTRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41C176B43E58414B1C98841284C33AC /* Pods_SYABBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYABBaseViewController_Tests.framework; path = "Pods-SYABBaseViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C176B43E58414B1C98841284C33AC /* Pods_SYABBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BD554A39F86DF78C26707749629C46 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		E6115CDF7C9CA3868D88CB6A5DA11417 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		E758A2BF140A1AAF0A16AA4ECF58707E /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
@@ -763,7 +763,7 @@
 		F41F05DE8B9F4692559DA98C18C00F58 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
 		F55FE168BC11BE0EA252AC1EE2E04007 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		F5C420ACB308C46652FB0C9830D25DAA /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		F5C473E972EC01A7CF830F47A47B241F /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C473E972EC01A7CF830F47A47B241F /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61830D0A9F973B9CD59857E12188125 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		F6DD8FA9BEDE770A618C7BA15B501E62 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7287196AB729524D74E43A029D299A5 /* ContextDescriptorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextDescriptorType.swift; path = Source/ContextDescriptorType.swift; sourceTree = "<group>"; };
@@ -933,7 +933,6 @@
 				CC23CED0156EE08B9F9E1FEC2D1BD49D /* Core */,
 				40E94EA6E24D1B50836608956CC2A3DC /* Support Files */,
 			);
-			name = RTRootNavigationController;
 			path = RTRootNavigationController;
 			sourceTree = "<group>";
 		};
@@ -976,7 +975,6 @@
 				627DBE45040C60B61355381BBAD95CF7 /* URLTransform.swift */,
 				BD90FDDCCB97C006134D5D28222EF5C2 /* Support Files */,
 			);
-			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -1028,7 +1026,6 @@
 				27D8C3878CCD2FBC0098F68189FF5953 /* UIApplication */,
 				706C8CE53CD4330725CA7F6669338B6A /* UIDevice */,
 			);
-			name = SYABUtilites;
 			path = SYABUtilites;
 			sourceTree = "<group>";
 		};
@@ -1185,7 +1182,6 @@
 				BB98552B77C126D1EF43A411EDB88B32 /* String */,
 				DC200A24484F8ABE62D8171056E3DFAF /* Support Files */,
 			);
-			name = SYABFoundation;
 			path = SYABFoundation;
 			sourceTree = "<group>";
 		};
@@ -1293,7 +1289,6 @@
 				5CB2429764E7F150BE80CA5289828C19 /* WKWebViewJavascriptBridge.m */,
 				A8C4B6AC5D6E313FD37106A3DAE01B96 /* Support Files */,
 			);
-			name = WebViewJavascriptBridge;
 			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
@@ -1303,7 +1298,6 @@
 				86A8CE04B50EFE03A45B71C517B47B02 /* Reachability.swift */,
 				F153182F58203C337F3CAB4DE09BA897 /* Support Files */,
 			);
-			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
@@ -1329,7 +1323,6 @@
 				26C252C53EB4C8BD0EA182CFC3E5262C /* Validation.swift */,
 				DB831B9EB335A4DF204FC34E6D3B2389 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1349,7 +1342,6 @@
 				FC7949A125DB1A482396CF12E87E07C6 /* Manager */,
 				EDF14CED495D789FD807EF830AECB58E /* Support Files */,
 			);
-			name = SYABNetwork;
 			path = SYABNetwork;
 			sourceTree = "<group>";
 		};
@@ -1458,7 +1450,6 @@
 				F62976632205AFBD9295A53253CED544 /* Resources */,
 				D95A9B5C563392BD1B2125DFC12425C1 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1506,7 +1497,7 @@
 		BE0C159174929633B9116231EDA8E858 /* BaseTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DBAF83B1045F34C45698B446DA1481CA /* SYABBaseItem.swift */,
+				DBAF83B1045F34C45698B446DA1481CA /* SYABBaseCellItem.swift */,
 				16581630B917B4E4EDE09263DE4A0041 /* SYABBaseTableViewCell.swift */,
 				E0E6922B493E19DF0E7171AC37B546E1 /* SYABBaseTableViewController.swift */,
 				9597A90EC6457B594D80D3BDF0FE492A /* SYABTableViewSectionObject.swift */,
@@ -1578,7 +1569,6 @@
 				001938D755C3DBE7AE77CBD3A43BC627 /* UILayoutSupport+Extensions.swift */,
 				0CC1EBCB74D4179E5AAF811F1B2336EF /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1723,7 +1713,6 @@
 				CC143520492CD50F965B3D016AE0E966 /* UIButton+Kingfisher.swift */,
 				CAAF66D4210CA2C68B166A3E45031564 /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -1754,7 +1743,6 @@
 				568EFBCBB1DB749C57463C77900B661E /* UITextView */,
 				6CBF4E8D73C30036A3F02AA5B8E67A72 /* UIView */,
 			);
-			name = SYABasicUIKit;
 			path = SYABasicUIKit;
 			sourceTree = "<group>";
 		};
@@ -2389,7 +2377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA969C189BC70D71041B8A626D4D63D9 /* SYABBaseItem.swift in Sources */,
+				DA969C189BC70D71041B8A626D4D63D9 /* SYABBaseCellItem.swift in Sources */,
 				CEC9151A14C252B800DB077296660444 /* SYABBaseNavigationController.swift in Sources */,
 				ED324C2AC4CF4AA0F1089DFDD68BDA53 /* SYABBaseTabBarViewController.swift in Sources */,
 				12825513C8228040B464DF1EF7FF5899 /* SYABBaseTableViewCell.swift in Sources */,
@@ -3762,8 +3750,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
