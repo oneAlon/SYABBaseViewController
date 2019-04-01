@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8866AEAC2249BCE3004ED8EC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8866AEAB2249BCE3004ED8EC /* MyViewController.swift */; };
 		8A3BC2382D2B1E9E9A410819 /* Pods_SYABBaseViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A898845172469283553361A2 /* Pods_SYABBaseViewController_Example.framework */; };
 		BA6A9F8D529E8BD959F82C23 /* Pods_SYABBaseViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 786961B658C00908FC37B0E1 /* Pods_SYABBaseViewController_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		63F1612F22A630E4EEC8367D /* Pods-SYABBaseViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Tests/Pods-SYABBaseViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		650018F4ED0AE42352A13413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		786961B658C00908FC37B0E1 /* Pods_SYABBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8866AEAB2249BCE3004ED8EC /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		88B2D917F5BD8CE865CCD388 /* Pods-SYABBaseViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Example/Pods-SYABBaseViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A898845172469283553361A2 /* Pods_SYABBaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABBaseViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA900A4793927319E42C11A9 /* Pods-SYABBaseViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYABBaseViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SYABBaseViewController_Tests/Pods-SYABBaseViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8866AEAB2249BCE3004ED8EC /* MyViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -226,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -355,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8866AEAC2249BCE3004ED8EC /* MyViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -522,7 +527,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

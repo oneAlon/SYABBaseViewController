@@ -1,9 +1,9 @@
 PODS:
-  - Alamofire (4.8.1)
-  - HandyJSON (4.2.1)
+  - Alamofire (4.8.2)
+  - HandyJSON (5.0.0-beta)
   - Kingfisher (4.10.1)
-  - MJRefresh (3.1.15.7)
-  - ReachabilitySwift (4.3.0)
+  - MJRefresh (3.1.16)
+  - ReachabilitySwift (4.3.1)
   - RTRootNavigationController (0.7.1):
     - RTRootNavigationController/Core (= 0.7.1)
   - RTRootNavigationController/Core (0.7.1)
@@ -44,48 +44,33 @@ PODS:
     - Kingfisher
     - SnapKit
     - SYABasicUIKit/UIGestureRecognizer
-  - SYABBaseViewController (0.0.2):
+  - SYABBaseViewController (0.0.4):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
-    - SYABBaseViewController/BaseNavigationController (= 0.0.2)
-    - SYABBaseViewController/BaseTabBarController (= 0.0.2)
-    - SYABBaseViewController/BaseTableViewController (= 0.0.2)
-    - SYABBaseViewController/BaseViewController (= 0.0.2)
-    - SYABBaseViewController/BaseWebViewController (= 0.0.2)
+    - SYABBaseViewController/BaseNavigationController (= 0.0.4)
+    - SYABBaseViewController/BaseTabBarController (= 0.0.4)
+    - SYABBaseViewController/BaseTableViewController (= 0.0.4)
+    - SYABBaseViewController/BaseViewController (= 0.0.4)
+    - SYABBaseViewController/BaseWebViewController (= 0.0.4)
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseNavigationController (0.0.2):
-    - MJRefresh
-    - RTRootNavigationController
-    - SYABasicUIKit
-    - SYABNetwork
-    - SYABUtilites
-    - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseTabBarController (0.0.2):
+  - SYABBaseViewController/BaseNavigationController (0.0.4):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseTableViewController (0.0.2):
-    - MJRefresh
-    - RTRootNavigationController
-    - SYABasicUIKit
-    - SYABBaseViewController/BaseViewController
-    - SYABNetwork
-    - SYABUtilites
-    - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseViewController (0.0.2):
+  - SYABBaseViewController/BaseTabBarController (0.0.4):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABBaseViewController/BaseWebViewController (0.0.2):
+  - SYABBaseViewController/BaseTableViewController (0.0.4):
     - MJRefresh
     - RTRootNavigationController
     - SYABasicUIKit
@@ -93,43 +78,58 @@ PODS:
     - SYABNetwork
     - SYABUtilites
     - WebViewJavascriptBridge
-  - SYABFoundation (0.0.1):
-    - SYABFoundation/Array (= 0.0.1)
-    - SYABFoundation/Data (= 0.0.1)
-    - SYABFoundation/Date (= 0.0.1)
-    - SYABFoundation/Dictionary (= 0.0.1)
-    - SYABFoundation/NotificationCenter (= 0.0.1)
-    - SYABFoundation/String (= 0.0.1)
-  - SYABFoundation/Array (0.0.1):
+  - SYABBaseViewController/BaseViewController (0.0.4):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABBaseViewController/BaseWebViewController (0.0.4):
+    - MJRefresh
+    - RTRootNavigationController
+    - SYABasicUIKit
+    - SYABBaseViewController/BaseViewController
+    - SYABNetwork
+    - SYABUtilites
+    - WebViewJavascriptBridge
+  - SYABFoundation (0.0.2):
+    - SYABFoundation/Array (= 0.0.2)
+    - SYABFoundation/Data (= 0.0.2)
+    - SYABFoundation/Date (= 0.0.2)
+    - SYABFoundation/Dictionary (= 0.0.2)
+    - SYABFoundation/NotificationCenter (= 0.0.2)
+    - SYABFoundation/String (= 0.0.2)
+  - SYABFoundation/Array (0.0.2):
     - SYABFoundation/String
-  - SYABFoundation/Data (0.0.1)
-  - SYABFoundation/Date (0.0.1)
-  - SYABFoundation/Dictionary (0.0.1)
-  - SYABFoundation/NotificationCenter (0.0.1)
-  - SYABFoundation/String (0.0.1)
-  - SYABNetwork (0.0.5):
+  - SYABFoundation/Data (0.0.2)
+  - SYABFoundation/Date (0.0.2)
+  - SYABFoundation/Dictionary (0.0.2)
+  - SYABFoundation/NotificationCenter (0.0.2)
+  - SYABFoundation/String (0.0.2)
+  - SYABNetwork (0.0.7):
     - Alamofire
-    - HandyJSON
+    - HandyJSON (= 5.0.0-beta)
     - ReachabilitySwift
     - SYABFoundation
-    - SYABNetwork/BaseModel (= 0.0.5)
-    - SYABNetwork/JsonSerializer (= 0.0.5)
-    - SYABNetwork/Manager (= 0.0.5)
-  - SYABNetwork/BaseModel (0.0.5):
+    - SYABNetwork/BaseModel (= 0.0.7)
+    - SYABNetwork/JsonSerializer (= 0.0.7)
+    - SYABNetwork/Manager (= 0.0.7)
+  - SYABNetwork/BaseModel (0.0.7):
     - Alamofire
-    - HandyJSON
+    - HandyJSON (= 5.0.0-beta)
     - ReachabilitySwift
     - SYABFoundation
     - SYABNetwork/JsonSerializer
     - SYABNetwork/Manager
-  - SYABNetwork/JsonSerializer (0.0.5):
+  - SYABNetwork/JsonSerializer (0.0.7):
     - Alamofire
-    - HandyJSON
+    - HandyJSON (= 5.0.0-beta)
     - ReachabilitySwift
     - SYABFoundation
-  - SYABNetwork/Manager (0.0.5):
+  - SYABNetwork/Manager (0.0.7):
     - Alamofire
-    - HandyJSON
+    - HandyJSON (= 5.0.0-beta)
     - ReachabilitySwift
     - SYABFoundation
   - SYABUtilites (0.0.1):
@@ -165,17 +165,17 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
-  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
   RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SYABasicUIKit: bce5f1e56a1a0a6998f747cfe00da99754f9b0bb
-  SYABBaseViewController: 2ad6ad7279885948c15d6c352d6e9ecfdce23d88
-  SYABFoundation: 411593d436360cd3d0fae4262bb9a0301bd8dd63
-  SYABNetwork: 438041fe4c7611c5f55da9692aad66763b836fcf
+  SYABBaseViewController: 6531a3f4d583396cb06a691ef835a116944d1d5f
+  SYABFoundation: 4fa60a8edc1ee98167e220164d6bf8b60bb79a7d
+  SYABNetwork: 046689d16c4178b342966e59ec9e4e6965964c32
   SYABUtilites: ef979fe27d550de01ad49f43d63bf275d2547ddf
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
